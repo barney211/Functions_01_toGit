@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数效果展示</title>
+</head>
+<body>
+<!--1. 水波纹展示-->
+<div>1.水波纹效果:</div>
+ <div style="display: flex;padding-left: 30px;margin-top:15px;">
+     <canvas id="c1" width="50" height="110" style="margin-right:25px;border:1px solid black;"></canvas>
+     <canvas id="c2" width="50" height="110" style="margin-right:25px;border:1px solid black;"></canvas>
+ </div>
+<!--2. 进度条展示（油量/水波）-->
+<div style="margin-top:80px;">2. 进度条展示（油量/水波）</div>
+<div style="margin-top: 15px;background: rgba(0,0,0,0.5)">
+    <canvas id="cc1" width="115" height="5" style="margin-right:30px;"></canvas>
+    <canvas id="cc2" width="115" height="5"></canvas>
+</div>
+<!--3. 动态波形图-->
+<div style="margin-top: 80px;">3.动态波形图</div>
+<div style="margin-top:20px;padding-left:20px;padding-top:20px;width:500px;height:200px;background: rgba(0,0,0,0.5)">
+    <canvas id="cw1" width="400" height="100"></canvas>
+</div>
+<script src="./Functions_01.js"></script>
+</body>
+</html>
